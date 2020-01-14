@@ -18,7 +18,13 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     public Person getPerson(int id) {
-        return allPersons.get(id);
+        Person found = new Person();
+        for (Person allPerson : allPersons) {
+            if (allPerson.getId() == id )
+                found = allPerson;
+
+        }
+        return found;
     }
 
 

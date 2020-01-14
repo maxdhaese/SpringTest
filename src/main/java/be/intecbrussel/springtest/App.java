@@ -45,7 +45,8 @@ public class App {
         mockservice.addPerson(max);
         mockservice.addPersons(personList);
         mockservice.printAllPersons();
-        mockservice.getPerson(2);
+
+        System.out.println("Person with id = 2 : " + mockservice.getPerson(2));
 
 
 

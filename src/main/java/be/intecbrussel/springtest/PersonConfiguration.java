@@ -22,10 +22,8 @@ public class PersonConfiguration {
 
 
     @Bean(name = "mockDao")
-    @Lazy
     public PersonDao mockDao() {
         PersonDaoImpl cs = new PersonDaoImpl();
-        cs.createPerson(person());
         return cs;
 
     }
