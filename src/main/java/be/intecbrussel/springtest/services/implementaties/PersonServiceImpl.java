@@ -2,6 +2,7 @@ package be.intecbrussel.springtest.services.implementaties;
 
 import be.intecbrussel.springtest.services.PersonDao;
 import be.intecbrussel.springtest.services.PersonService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 
 import java.util.ArrayList;
@@ -12,22 +13,26 @@ import java.util.logging.Logger;
 public class PersonServiceImpl implements PersonService {
     public PersonDao personDao = new PersonDaoImpl();
     private List<Person> allPersons = new ArrayList<>();
+    @Autowired
     private Logger logger;
 
     @Override
     public Person getPerson(int id) {
         return allPersons.get(id);
-
-        }
-
+    }
 
 
     @Override
     public void addPerson(Person person) {
-        person.setId(allPersons.size() + 1);
-        allPersons.add(person);
-        personDao.createPerson(person);
-        System.out.println("person added");
+        if (person != null) {
+            person.setId(allPersons.size() + 1);
+            allPersons.add(person);
+            personDao.createPerson(person);
+
+            logger.info("Person with id: " + person.getId() + " added");
+        } else {
+            logger.info("object does not exist");
+        }
 
 
     }
@@ -36,12 +41,11 @@ public class PersonServiceImpl implements PersonService {
     public void addPersons(List<Person> personList) {
         for (Person person : personList) {
             person.setId(allPersons.size() + 1);
+            logger.info("Person with id: " + person.getId() + " added");
             allPersons.add(person);
+            personDao.createPerson(person);
 
         }
-
-        System.out.println("personList added");
-
 
     }
 

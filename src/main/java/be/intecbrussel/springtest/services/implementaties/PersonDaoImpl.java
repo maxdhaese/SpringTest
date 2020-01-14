@@ -1,6 +1,7 @@
 package be.intecbrussel.springtest.services.implementaties;
 
 import be.intecbrussel.springtest.services.PersonDao;
+import org.springframework.beans.factory.annotation.Autowired;
 
 
 import java.util.ArrayList;
@@ -11,15 +12,13 @@ import java.util.logging.Logger;
 public class PersonDaoImpl implements PersonDao {
 
     private List<Person> personDB = new ArrayList<>();
+    @Autowired
     private Logger logger;
 
 
     @Override
     public boolean createPerson(Person person) {
         personDB.add(person);
-        System.out.println("person added in database");
-
-
 
         return false;
     }
