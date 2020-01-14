@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b12f47e-6eaa-41fa-a9ce-6702dfc0422c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/PersonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/PersonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/PersonConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/PersonDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/PersonDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/springtest/services/implementaties/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/PersonConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/PersonConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/PersonDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/PersonDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/springtest/services/implementaties/PersonServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578989757938</updated>
-      <workItem from="1578989761604" duration="10963000" />
+      <workItem from="1578989761604" duration="16187000" />
     </task>
     <servers />
   </component>

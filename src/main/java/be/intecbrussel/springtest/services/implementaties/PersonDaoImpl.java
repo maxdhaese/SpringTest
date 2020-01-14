@@ -16,11 +16,10 @@ public class PersonDaoImpl implements PersonDao {
 
     @Override
     public boolean createPerson(Person person) {
-        for (Person p : personDB) {
-            personDB.add(person);
-        }
+        personDB.add(person);
+        System.out.println("person added in database");
 
-        logger.info("Person Object with " + person.getId() + " constructed");
+
 
         return false;
     }
@@ -45,7 +44,7 @@ public class PersonDaoImpl implements PersonDao {
     }
 
     @Override
-    public Person readAll(List<Person> allPersons) {
-        return null;
+    public void readAll(List<Person> personDB) {
+      personDB.forEach(System.out::println);
     }
 }

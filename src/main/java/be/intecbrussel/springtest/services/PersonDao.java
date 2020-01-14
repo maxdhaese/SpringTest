@@ -10,5 +10,5 @@ public interface PersonDao {
     Person readPerson(int id);
     boolean updatePerson(Person person);
     boolean deletePerson(Person person);
-    Person readAll(List<Person> allPersons);
+    void readAll(List<Person> allPersons);
 }

@@ -12,7 +12,10 @@ public class Person {
     private int id;
     private String firstName;
 
+
     public Person() {
+
+
     }
 
     public String getLastName() {
@@ -62,9 +65,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "lastName='" + lastName + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
+        return "Person{ dateOfBirth=" + dateOfBirth +
                 ", id=" + id +
                 ", firstName='" + firstName + '\'' +
                 '}';

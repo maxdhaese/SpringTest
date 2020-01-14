@@ -10,6 +10,7 @@ public interface PersonService {
     public void addPerson(Person person);
     public void addPersons(List<Person> allPersons);
     public void setAllPersons(List<Person> allPersons);
+    public void printAllPersons();
 
 
 

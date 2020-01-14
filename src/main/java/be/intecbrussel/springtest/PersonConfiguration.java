@@ -17,7 +17,7 @@ public class PersonConfiguration {
         return new Person();
     }
 
-    
+
     @Bean(name = "mockDao")
     @Lazy
     public PersonDao mockDao() {
@@ -30,7 +30,6 @@ public class PersonConfiguration {
     @Bean(name = "mockService")
     public PersonService mockService() {
         PersonServiceImpl ps = new PersonServiceImpl();
-        ps.addPerson(person());
         return ps;
 
     }
